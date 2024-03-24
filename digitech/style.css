@@ -1,0 +1,44 @@
+/* =================================
+
+Theme Name: DiGiTech 1
+Theme URI: #
+Version: 1.0.0
+Author: Md Imran Hossain
+Author URI: https://www.facebook.com/MdImranH503
+Text Domain: digitech
+Requires at least: 5.9
+Tested up to: 6.4
+Requires PHP: 5.6
+Description: This is my first theme. I am just start learning wordpress theme development.
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, 
+block-patterns, rtl-language-support, sticky-post, threaded-comments, style-variations, wide-blocks, 
+block-styles, accessibility-ready, blog, portfolio, news
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+====================================*/
+
+
+/*====================
+ Main menu Style 
+ =====================*/
+#main_menu{
+    width: 100%;
+    clear: both;
+}
+.inner_menu{
+
+}
+
+ #main_menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+ }
+ #main_menu ul li{
+    display: inline-block;
+    margin: 0 5;
+ }
+ #main_menu ul li a{}
+ #main_menu ul li a:hover{}
